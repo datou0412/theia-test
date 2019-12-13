@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "prepare": "lerna run prepare",
+    "start": "cd browser-app && yarn theia start"
+  },
+  "workspaces": [
+    "packages/*",
+    "browser-app"
+  ],
+  "devDependencies": {
+    "lerna": "^3.13.4"
+  }
+}

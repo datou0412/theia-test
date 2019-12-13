@@ -1,0 +1,31 @@
+{
+  "name": "@test/security",
+  "keywords": [
+    "theia-extension"
+  ],
+  "version": "0.0.1",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "dependencies": {
+    "@theia/core": "^0.13.0",
+    "@theia/filesystem": "^0.13.0"
+  },
+  "devDependencies": {
+    "rimraf": "latest",
+    "typescript": "^3.4.5"
+  },
+  "scripts": {
+    "prepare": "yarn run clean && yarn run build",
+    "clean": "rimraf lib",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "theiaExtensions": [
+    {
+      "backend": "lib/node/security-backend-module"
+    }
+  ]
+}

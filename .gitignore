@@ -1,0 +1,4 @@
+node_modules
+lib
+browser-app/src-gen
+browser-app/webpack.config.js
