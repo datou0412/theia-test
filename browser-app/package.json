@@ -20,6 +20,8 @@
     "@theia/merge-conflicts": "0.13.0",
     "@theia/search-in-workspace": "0.13.0",
     "@theia/json": "0.13.0",
+    "@theia/plugin-ext": "^0.13.0",
+    "@theia/plugin-ext-vscode": "^0.13.0",
     "@theia/textmate-grammars": "0.13.0",
     "@theia/mini-browser": "0.13.0",
     "@test/security": "0.0.1"

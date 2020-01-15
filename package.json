@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "prepare": "lerna run prepare",
-    "start": "cd browser-app && yarn theia start"
+    "start": "cd browser-app && yarn theia start --plugins=local-dir:../plugins"
   },
   "workspaces": [
     "packages/*",
