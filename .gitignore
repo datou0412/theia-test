@@ -2,5 +2,5 @@ node_modules
 lib
 plugins
 browser-app/src-gen
-browser-app/webpack.config.js
+browser-app/gen-webpack.config.js
 .DS_Store
